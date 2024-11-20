@@ -2,12 +2,12 @@ export const VERSION = "0.1.2";
 
 // I'm just hardcoding all of this for now, maybe I'll make it configurable later
 
-export const DEFAULT_LIMIT = 50;
+export const DEFAULT_LIMIT = 500;
 export const DEFAULT_POLLING_INTERVAL = 10000; // ms
 
-export const DEFAULT_POST_INTERVAL = 1000; // ms
-export const DEFAULT_QUERY_INTERVAL = 100; // ms
-export const DEFAULT_UPDATE_INTERVAL = 100; // ms
+export const DEFAULT_POST_INTERVAL = 5000; // ms
+export const DEFAULT_QUERY_INTERVAL = 1000; // ms
+export const DEFAULT_UPDATE_INTERVAL = 1000; // ms
 
 export const GETALL_LIMIT = 100; // limit used when getting all followers/follows
 export const GETALL_SLEEP_INTERVAL = 100; // ms
